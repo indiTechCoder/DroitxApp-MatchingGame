@@ -3,11 +3,6 @@
     xmlns:android   = "http://schemas.android.com/apk/res/android"
     id              = "com.mathgame.master"
     version         = "1.0.0">
-    <supports-screens android:anyDensity="true" android:resizeable="true" 
-    android:smallScreens="true" 
-    android:normalScreens="true" 
-    android:largeScreens="true" 
-    android:xlargeScreens="true" />
     <!-- versionCode is optional and Android only -->
     <name>Math Master</name>
     <description>
@@ -15,11 +10,7 @@
     </description>
     <gap:splash src="splash.png" />
     <gap:platform name="android" />
-<icon src="ldpi.png" gap:platform="android" gap:density="ldpi" />
-<icon src="mdpi.png" gap:platform="android" gap:density="mdpi" />
-<icon src="hdpi.png" gap:platform="android" gap:density="hdpi" />
-<icon src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-<icon src="xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+    <icon src="res/drawable-hdpi/icon.png" gap:platform="android" gap:density="ldpi" />
     <author href="" email="cooltarunsharma111@gmail.com">
         Tarun Sharma 
     </author>
