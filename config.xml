@@ -1,24 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
-        versionCode = "10" 
-        version     = "1.0.0" >
-
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+    xmlns:gap       = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android"
+    id              = "com.mathgame.master"
+    version         = "1.0.0">
+    <supports-screens android:anyDensity="true" android:resizeable="true" 
+    android:smallScreens="true" 
+    android:normalScreens="true" 
+    android:largeScreens="true" 
+    android:xlargeScreens="true" />
     <!-- versionCode is optional and Android only -->
-
     <name>Math Master</name>
-    <gap:splash src="splash.jpg" gap:platform="winphone" />
     <description>
-       Math Master
+       Math Master to Learn some good Meth Puzzles with Intresting Game
     </description>
-    <icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi"/>
-    <icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi"/>
-    <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi"/>
-    <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi"/>
-    <icon src="icons/android/xxhdpi.png" gap:platform="android" gap:density="xxhdpi"/>
-    <author href="https://build.phonegap.com" email="support@phonegap.com">
-        Hardeep Shoker 
+    <gap:splash src="splash.png" />
+    <gap:platform name="android" />
+<gap:splash src="ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+    <author href="" email="cooltarunsharma111@gmail.com">
+        Tarun Sharma 
     </author>
-
 </widget>
+
